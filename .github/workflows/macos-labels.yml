@@ -1,15 +1,13 @@
 name: macos-labels
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
 jobs:
-  m14:
-    runs-on: macos-14
-    steps:
-      - run: sw_vers
   m13:
     runs-on: macos-13
     steps:
       - run: sw_vers
-  ml:
-    runs-on: macos-latest
+  m14:
+    runs-on: macos-14
     steps:
       - run: sw_vers
