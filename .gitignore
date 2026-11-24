@@ -1,0 +1,4 @@
+pwa/preview/
+*.zip
+*.ipa
+.DS_Store
